@@ -2,7 +2,7 @@ import {set} from 'next-cookies';
 import Link from "next/link";
 import React, { useState , useEffect } from "react";
 import Router from 'next/router';  
-const login = () => {
+const Login = () => {
     const[logined,setLogined] = useState('');
     const[formData,setFormData] = useState({})
     const[error,setError] = useState(false);
@@ -90,4 +90,4 @@ const login = () => {
 
 }
 
-export default login;
+export default Login;

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const forgot = () => {
+const Forgot = () => {
   return (
     <div>
             <div className="w-full min-h-screen bg-gray-800 flex flex-col sm:justify-center items-center pt-6 sm:pt-0">
@@ -28,4 +28,4 @@ const forgot = () => {
   )
 }
 
-export default forgot
+export default Forgot

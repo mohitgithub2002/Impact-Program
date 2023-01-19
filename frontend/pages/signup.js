@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Router from 'next/router';  
 import { useState, useEffect } from 'react';
-const signup = () => {
+const SignUp = () => {
     const [isRegistered,setIsRegistered] = useState(false);
     const [formData, setFormData] = useState({});
     const handleChange = (event) => {
@@ -85,4 +85,4 @@ const signup = () => {
   )
 }
 
-export default signup
+export default SignUp

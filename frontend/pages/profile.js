@@ -1,5 +1,5 @@
 
-const profile = ()=>{
+const Profile = ()=>{
     return(
         <div className="bg w-full h-screen flex justify-center">
             <div className="my-6 w-full md:w-2/5 lg:w-4/5 block p-6 rounded-lg   bg-white  max-w-sm-wrap items-center">
@@ -31,4 +31,4 @@ const profile = ()=>{
     )
 }
 
-export default profile;
+export default Profile;

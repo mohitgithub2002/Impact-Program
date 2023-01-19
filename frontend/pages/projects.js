@@ -1,6 +1,6 @@
 
 
-const products = () =>{
+const Projects = () =>{
     return (
         
         <div className="background h-screen w-full flex-col flex items-center justify-center">
@@ -10,4 +10,4 @@ const products = () =>{
     )
 }
 
-export default products;
+export default Projects;
